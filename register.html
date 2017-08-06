@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Register | Trump prototype</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Trump prototype</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle"></i> About</a>
+                    </li>
+                    <li>
+                        <a href="services.html"><i class="fa fa-globe"></i> Services</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="register.html"><i class="fa fa-user-plus"></i> Create an Account</a>
+                            </li>
+                            <li>
+                                <a href="login.html"><i class="fa fa-sign-in"></i> login to your account</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="blog-post.html"><i class="fa fa-globe"> </i> Blog</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-circle"></i> More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="testimonial.html"><i class="fa fa-comment"></i> Testimonial</a>
+                            </li>
+                            <li>
+                                <a href="faq.html"><i class="fa fa-comments"></i> FAQ</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html"><i class="fa fa-usd"></i> Pricing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <br>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
+                <form action="" method="post" id="signupForm">
+                    <h2>Please Sign Up <small>(It's free and always will be)</small></h2>
+                    <hr >
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <label>Referrals Name</label>
+                                <input type="text" class="form-control  input-md" value="Ref: None" readonly="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="form-group">
+                                <label for="email-login">Select Title</label>
+                                <select class="form-control input-md" name="title_text">
+                                    <option value="">-- Select Title --</option>
+                                    <option value="29">Advocate</option>
+                                    <option value="14">Ambassador</option>
+                                    <option value="8">Barrister</option>
+                                    <option value="22">Bishop</option>
+                                    <option value="33">Brigadier</option>
+                                    <option value="34">Captain</option>
+                                    <option value="40">Chancellor</option>
+                                    <option value="9">Coloniel</option>
+                                    <option value="17">Councillor</option>
+                                    <option value="28">Dame</option>
+                                    <option value="7">Doctor</option>
+                                    <option value="39">Elder</option>
+                                    <option value="10">Engineer</option>
+                                    <option value="18">Envagelist</option>
+                                    <option value="37">Eze</option>
+                                    <option value="32">General</option>
+                                    <option value="16">Governor</option>
+                                    <option value="13">Governor</option>
+                                    <option value="30">Justice</option>
+                                    <option value="25">King</option>
+                                    <option value="27">Lord</option>
+                                    <option value="11">Madam</option>
+                                    <option value="5">Master</option>
+                                    <option value="6">Miss</option>
+                                    <option value="1">Mr.</option>
+                                    <option value="4">Mrs</option>
+                                    <option value="36">Oba</option>
+                                    <option value="38">Obi</option>
+                                    <option value="35">Officer</option>
+                                    <option value="21">Pastor</option>
+                                    <option value="31">Pope</option>
+                                    <option value="19">Prelate</option>
+                                    <option value="15">President</option>
+                                    <option value="23">Prince</option>
+                                    <option value="24">Princess</option>
+                                    <option value="3">Professor</option>
+                                    <option value="2">Provost</option>
+                                    <option value="26">Queen</option>
+                                    <option value="20">Reverend</option>
+                                    <option value="12">Senator</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="form-group">
+                                <label>Enter your Fullname</label>
+                                <input type="text" class="form-control input-md" name="fullname_text" placeholder="Enter your fullname">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label>Gender</label>
+                                <select class="form-control input-md" name="gender_text">
+                                    <option value="">-- Select Sex --</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label>Select Resident State</label>
+                                <select class="form-control input-md" name="state_text">
+                                    <option value="">-- Select State --</option>
+                                    <option value="1">Abia</option>
+                                    <option value="2">Abuja</option>
+                                    <option value="3">Adamawa</option>
+                                    <option value="4">Akwa-ibom</option>
+                                    <option value="5">Anambra</option>
+                                    <option value="6">Bauchi</option>
+                                    <option value="7">Bayelsa</option>
+                                    <option value="8">Benue</option>
+                                    <option value="9">Borno</option>
+                                    <option value="10">Cross-River</option>
+                                    <option value="11">Delta</option>
+                                    <option value="12">Ebonyi</option>
+                                    <option value="13">Edo</option>
+                                    <option value="14">Ekiti</option>
+                                    <option value="15">Enugu</option>
+                                    <option value="17">Gombe</option>
+                                    <option value="18">Imo</option>
+                                    <option value="16">International</option>
+                                    <option value="19">Jigawa</option>
+                                    <option value="21">Kaduna</option>
+                                    <option value="20">Kano</option>
+                                    <option value="22">Kastina</option>
+                                    <option value="23">Kebbi</option>
+                                    <option value="24">Kogi</option>
+                                    <option value="25">Kwara</option>
+                                    <option value="26">Lagos</option>
+                                    <option value="27">Nasarawa</option>
+                                    <option value="28">Niger</option>
+                                    <option value="29">Ogun</option>
+                                    <option value="30">Ondo</option>
+                                    <option value="31">Osun</option>
+                                    <option value="32">Oyo</option>
+                                    <option value="33">Plateau</option>
+                                    <option value="34">Rivers</option>
+                                    <option value="35">Sokoto</option>
+                                    <option value="36">Taraba</option>
+                                    <option value="37">Yobe</option>
+                                    <option value="38">Zamfara</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="email">Contact Mobile <small>(080x Format)</small> <span class="phoneMSG"></span></label>
+                                <input type="text" class="form-control input-md mobile_text" maxlength="15" name="mobile_text" placeholder="Mobile number in the 080x, 070x Format">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="email">Enter your Email Address <span class="emailMSG"></span></label>
+                                <input type="text" class="form-control input-md email_text" name="email_text" placeholder="Enter your Email address" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="password">Enter your Password</label>
+                                <input type="password" class="form-control input-md" id="password1" name="password1" placeholder="Please enter your password">
+                                <span id="pwdMeter" class="neutral" style="float: right; margin: -30px 0px 0px; display: none;">Very Weak</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="password">Confirm Password</label>
+                                <input type="password" class="form-control input-md" id="password2" name="password2" placeholder="Please confirm your password">
+                                <span style="float:right" id="password_match_span"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="email">Choose Username [Uneditable] <span class="usernameMSG"></span></label>
+                                <input type="text" class="form-control input-md username_text" maxlength="15" name="username_text" placeholder="Enter your Unique Username. No spaces" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                        By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" target="_blank">Terms and Conditions</a> set out by this site, including our <a href="#" target="_blank"> Disclaimer </a>.
+                        </div>
+                    </div>
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                        <button type="submit" class="btn btn-theme btn-block btn-lg signupBotton" tabindex="7"> <i class="fa fa-edit"></i> Create my Account</button>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            Already have an account? <a href="login.html">Sign In</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; <a href="#">Villaria Ventures</a> 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
